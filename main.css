@@ -1,0 +1,140 @@
+/* ESSENTIALS CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  'Roboto', sans-serif;
+  font-weight: 400;
+  color: #484848;
+  line-height: 1.43;
+
+}
+
+p{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a:link{
+  text-decoration:  none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+a:visited
+{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,li{
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+::selection{
+  color: #fff;
+  background-color: #333;
+}
+
+moz::selection{
+  color: #fff;
+  background-color: #333;
+}
+.clearfix::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*top-nav css*/
+.top-nav{
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.logo:link
+{ position: relative;
+  color: #484848;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3 ease;
+  -moz-transition: all 0.3 ease;
+  -o-transition: all 0.3s ease;
+  float: left;
+}
+
+.logo:visited{
+  color: #484848;
+}
+
+.logo:hover{
+  background-color: #f1f1f1;
+}
+
+.logo img{
+  position: relative;
+  padding: 10px 15px;
+  width:65px;
+  border-right: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+/*NAV SEARCH CSS*/
+#nav-search-wrapper
+{
+  height: 80%;
+  width: 250px;
+  margin-left: 100px;
+
+
+}
+
+#nav-search-wrapper form input{
+  padding: 40px 50px 20px 52px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #666;
+  font-size: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-image: url("./Pics/search.svg");
+  background-repeat: no-repeat;
+
+  background-size: 25px;
+  background-position: 25px;
+
+
+}
+  #nav-search-wrapper form input  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #666;
+    font-size: 20px;
+  }
+
+  #nav-search-wrapper form input ::-moz-placeholder { /* Firefox 19+ */
+    color: #666;
+    font-size: 20px;
+
+  }
+  #nav-search-wrapper form input :-ms-input-placeholder { /* IE 10+ */
+    color: #666;
+    font-size: 20px;
+
+  }
+  #nav-search-wrapper form input :-moz-placeholder { /* Firefox 18- */
+    color: #666;
+    font-size: 20px;
+  }
