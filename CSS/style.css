@@ -106,22 +106,24 @@ header{
   height: 450px;
   border-radius: 1.5rem;
   display: flex;
-  align-items: center;
+  
 }
 
 .home-text{
   padding-left: 215px;
+  text-align: center;
 }
 .home-text h1{
   color:var(--bg-color);
   font-size:2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .home-text h2{
   color:var(--bg-color);
   font-size:2rem;
   margin-bottom: 1rem;
-  padding-left: 70px;
+  text-align: center;
 }
 
 .about{
@@ -329,6 +331,7 @@ header{
   .heading h2{
     font-size: 1.4rem;
   }
+ 
 
 }
 
@@ -344,6 +347,7 @@ header{
     grid-template-columns: 0.8fr 1fr;
     margin-top:3rem;
   }
+
   
 }
 
@@ -356,13 +360,31 @@ header{
     justify-content: center;
     grid-template-columns: 1fr;
   }
+  .home-text{
+    padding-left: 75px;
+   }
+  .home-text h1{
+    
+    font-size:1.7rem;
+    text-align: center;
+   
+  }
+  .home-text h2{
+    
+    font-size:1.7rem;
+    text-align: center;
+   
+   
+  }
+  .home a{
+    padding: 50; 
+    margin: auto;
+  }
 }
 
 @media (max-width:442px)
 {
-  .home-text h1{
-    font-size: 1.7rem;
-  }
+  
 
   .about-text h2,
   .heading h2{
@@ -374,4 +396,32 @@ header{
   .footer{
     border-radius: 3rem 0 0 0;
   }
+  .home{
+    margin-top:3rem;
+    height: 450px;
+    border-radius: 1rem;
+  }
+  
+  .home-text{
+    padding-left: 75px;
+   }
+  .home-text h1{
+    
+    font-size:1.7rem;
+    text-align: center;
+   
+  }
+  .home-text h2{
+    
+    font-size:1.7rem;
+    text-align: center;
+   
+   
+  }
+  .home a{
+    padding: 50; 
+    margin: auto;
+  }
+
+  
 }
