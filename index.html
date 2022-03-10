@@ -1,34 +1,137 @@
 <!DOCTYPE html>
-
-<html >
+<html lang="en" >
 <head>
-    <title>DreamRent</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" />
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamRent-Tentant or Owner</title>
+  <!--to CSS-->
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   
 </head>
+
+
 <body>
 
-  <!--Top-nav html -->
-      <div class="top-nav">
-            <a href="index.html" class="logo">
-                <img src="Pics\logo.png" alt="DreamRent"/>
-            </a>
-            <div id="nav-search-wrapper" >
-               <form action="index.html" method="get">
-                  <input type="text" name="search" id="nav-search" placeholder="Search" />
-               </form>
+  <!-- NavBar -->
+  <header>
+    <div class="nav container">
+        <!-- Logo -->
+        <a href="index.html"  class="logo"><i class='bx bx-home'></i>Dream Rent</i></a>
+        <!-- Menu Bar-->
+        <input type="checkbox" name="" id="menu">
+        <label for="menu" <i class='bx bx-menu' id="menu-icon"></i></label>
+        <!-- Nav List-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#steps">First Steps</a></li>
+            <li><a href="#properties">Properties</a></li>
+        </ul>
+        <!-- Log In Button-->
+        <a href="#" class="btn">Log In</a>
+    </div>
+  </header>
+
+    <!-- HOME -->
+  <section class="home container" id="home">
+    <div class="home-text">
+      <h1>Find Your Next <br> Perfect Place To Live</h1>
+      <h2>OR</h2>
+
+      <h1>Rent Your House To<br> Someone Who Needs It</h1>
+      <a href="#" class="btn">Sign Up</a>
+    </div>
+  </section>
+
+  <!--ABOUT-->
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="Pics/about.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <span>About Us</span>
+      <h2>Are you tired of spending days looking for rent?</h2>
+      <p>We are here to help you...</p>
+     
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!--STEPS-->
+  <section class="steps container" id="steps">
+      <!--box1-->
+    <div class="box">
+      <i class='bx bx-user'></i>
+      <h3>STEP 1: Create Your Account!</h3>
+      <p>JOIN US... Choose your needs: tentant or owner?</p>
+    </div>
+
+    <!--box2-->
+    <div class="box">
+      <i class='bx bx-desktop'></i>
+      <h3>STEP 2: Connect To Your New Account!</h3>
+      <p>ALMOST READY...Log in and start!</p>
+    </div>
+
+    <!--box3-->
+    <div class="box">
+      <i class='bx bx-home-alt'></i>
+      <h3>STEP 3: Now Meet Your Needs! </h3>
+      <p>LET'S GET TO WORK... Find places or people!</p>
+
+    </div>
+    </section>
+
+    <!--PROPERTIES-->
+    <section class="properties container" id="properties">
+        <div class="heading">
+          <span>Newest</span>
+          <h2>Maybe this is your new home</h2>
+          <p>/*Lista care contine cateva locatii si sageti stanga dreapta*/</p>
+        </div>
+      </section>
+
+      <!--FOOTER-->     
+      <section class="footer">
+        <div class="footer-container container">
+          <h2>DreamRent</h2>
+          
+         <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Agency</a>
+            <a href="#">Buliding</a>  
+            <a href="#">Rates</a>
+          </div>
+          
+          <div class="footer-box">
+            <h3>Locations</h3>
+            <a href="#">Bucuresti</a>
+            <a href="#">Craiova</a>  
+            <a href="#">Caracal</a>
+          </div>
+
+          <div class="footer-box">
+            <h3>Contact</h3>
+            <a href="#">0765145545</a>
+            <a href="#">joitastefan8@gmail.com</a>  
+            <div class="social">
+              <a href="https://www.facebook.com/cornel.joita.5"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/stefan_jse/"><i class="bx bxl-instagram"></i></a>
             </div>
+          </div>
+
 
         </div>
-
-
-
-
-
-
+      </section>
 </body>
+
+
+
+
+
+
 
 
 
